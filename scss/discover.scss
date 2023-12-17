@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header {
+  padding: 1.5px 50px;
+  width: 100%;
+}
+.header__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  li:hover {
+    border-bottom: 2px solid gray;
+    transition: all ease 0.2s;
+  }
+}
+.header__country__select {
+  display: flex;
+  color: #000;
+  gap: 30px;
+  justify-content: end;
+  img {
+    cursor: pointer;
+  }
+}
+.discover {
+  background-image: url(../img/image\ 3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 49px;
+  padding-right: 1082px;
+  padding-top: 160px;
+  padding-bottom: 60px;
+  h1 {
+    color: #fff;
+
+    font-size: 33.18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+}
+.other {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 113px;
+  h1 {
+    color: #000;
+
+    font-size: 67.939px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  .para__first {
+    width: 780px;
+    display: flex;
+    p {
+      color: #000;
+
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 180%;
+      margin-left: 50px;
+    }
+  }
+  .para__second {
+    width: 780px;
+    p {
+      margin-top: 20px;
+    }
+  }
+  .maps__first {
+    margin-left: auto;
+    margin-right: 0px;
+    flex: 1;
+    margin-left: 60px;
+  }
+  .parag__first {
+    margin: 0 auto;
+    .maps__first {
+      float: right;
+      margin-top: -200px;
+      margin-left: -100px;
+    }
+  }
+  .para__third {
+    img {
+      margin-top: 60px;
+    }
+    h2 {
+      color: var(--TitleColor, #3d3e48);
+      font-size: 27.65px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top: 20px;
+      text-transform: capitalize;
+    }
+    .log {
+      margin-top: 10px;
+    }
+  }
+}

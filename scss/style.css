@@ -20,6 +20,9 @@ body {
   align-items: center;
   list-style-type: none;
 }
+.header__list img {
+  cursor: pointer;
+}
 .header__list a {
   color: white;
   text-decoration: none;
@@ -108,6 +111,9 @@ body {
   padding: 110px 200px;
   background-color: #fff;
 }
+.travelers .trav__list p {
+  cursor: pointer;
+}
 .travelers .right {
   margin-left: auto;
   margin-right: 0;
@@ -194,6 +200,11 @@ body {
   margin-top: 50px;
   list-style-type: none;
 }
+.destination ul li:hover {
+  transform: translateY(-5px);
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
 .destination ul li {
   padding: 20px 10px;
   border-radius: 10px;
@@ -239,6 +250,11 @@ body {
   margin-top: 50px;
   justify-content: space-between;
   list-style-type: none;
+}
+.orders li:hover {
+  transform: translateY(-5px);
+  transition: all ease 0.2s;
+  cursor: pointer;
 }
 .orders li {
   padding: 20px 20px;
@@ -327,4 +343,8 @@ body {
   font-weight: 400;
   cursor: pointer;
   line-height: normal;
+}
+.footer ul .footer__item .footer__tags p:hover {
+  transform: translateY(-5px);
+  transition: all ease 0.2s;
 }/*# sourceMappingURL=style.css.map */
